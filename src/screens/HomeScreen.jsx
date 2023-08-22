@@ -2,7 +2,7 @@
 import { useGetAllTodosQuery } from "../slices/todoApiSlice";
 import Loader from "../components/Loader";
 import Hero from "../components/Hero";
-import Todo from "../components/todo";
+import Todo from "../components/Todo";
 import { useState } from "react";
 
 function HomeScreen() {
