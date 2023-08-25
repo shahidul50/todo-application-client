@@ -2,7 +2,7 @@ import { Col, Row} from "react-bootstrap"
 import Form from 'react-bootstrap/Form';
 import { Link } from 'react-router-dom'
 function Hero(props) {
-     // eslint-disable-next-line no-unused-vars
+     // eslint-disable-next-line no-unused-vars, react/prop-types
      const {search, setSearch}  = props
   return (
     <div className='middle-container'>
